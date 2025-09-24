@@ -91,27 +91,7 @@ npm start
 5. **Transacciones**: Operaciones que modifican el estado (cuestan gas)
 6. **Llamadas**: Operaciones de solo lectura (gratis)
 
-## 🎓 Para el Aula
-
-### Paso 1: Explicar Provider
-- "El provider es como tu conexión a Internet, pero para blockchain"
-- Mostrar `getBlockNumber()` para verificar conexión
-
-### Paso 2: Explicar Wallet
-- "La wallet es tu cuenta bancaria, pero para crypto"
-- Mostrar `wallet.address` (público) vs `privateKey` (privado)
-
-### Paso 3: Explicar Contrato
-- "El contrato es como una API, pero en blockchain"
-- Mostrar ABI como "manual de instrucciones"
-- Diferencia entre `call` (leer) y `sendTransaction` (escribir)
-
-### Paso 4: Ejemplo Práctico
-- Usar un contrato simple (contador, almacenamiento)
-- Mostrar lectura vs escritura
-- Explicar gas y confirmaciones
-
-## ⚠️ Importante para Alumnos
+## ⚠️ Recordatorios Importantes
 
 1. **NUNCA compartir la clave privada**
 2. **Usar redes de prueba** (Sepolia, Goerli) para aprender
@@ -122,5 +102,5 @@ npm start
 ## 🔗 Recursos Adicionales
 
 - [Documentación ethers.js](https://docs.ethers.org/)
-- [Sepolia Faucet](https://sepoliafaucet.com/) - ETH gratis para pruebas
+- [Faucet](https://cloud.google.com/application/web3/faucet) - ETH gratis para pruebas
 - [Etherscan Sepolia](https://sepolia.etherscan.io/) - Explorador de bloques
