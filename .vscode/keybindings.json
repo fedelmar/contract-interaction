@@ -1,0 +1,14 @@
+[
+  {
+    "key": "ctrl+alt+u",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorHasSelection"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "editor.action.formatSelection",
+    "when": "editorTextFocus && editorHasSelection"
+  }
+]
+
+
